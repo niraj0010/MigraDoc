@@ -3,3 +3,10 @@ obj/
 .dotnet/
 output/
 TestResults/
+.vs/
+tmp/
+coverage/
+*.coverage
+*.coveragexml
+*.user
+*.suo
