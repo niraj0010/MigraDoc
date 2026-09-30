@@ -20,6 +20,16 @@ dotnet run --project src/MigraDocReport -- sample/report.json output/pdf/report.
 
 The generated file is `output/pdf/report.pdf`.
 
+## Credit report layout
+
+The credit-report command uses the purpose-built `CreditReportResponse` contract: customer name and address, a single four-column credit-profile summary, one row per bureau, and a column-driven references table. The included values are fictional sample data and are not a consumer report.
+
+```powershell
+dotnet run --project src/MigraDocReport -- credit sample/credit-report.json output/pdf/credit-report.pdf
+```
+
+The generated credit-report sample is `output/pdf/credit-report.pdf`.
+
 ## JSON shape
 
 `sample/report.json` provides the expected response format. It has a title, an arbitrary-length `kpis` array, column definitions, and rows. A row is an object keyed by each column's `key`; values can be strings, numbers, booleans, or null.

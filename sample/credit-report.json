@@ -1,0 +1,56 @@
+{
+  "title": "Credit Report",
+  "customer": {
+    "name": "Taylor Morgan (Sample Customer)",
+    "addressLines": [
+      "1250 Sample Avenue, Suite 400",
+      "Chicago, IL 60601"
+    ]
+  },
+  "summary": [
+    { "label": "Report ID", "value": "CR-2026-0930-0042" },
+    { "label": "Report date", "value": "September 30, 2026" },
+    { "label": "Report type", "value": "Illustrative sample" },
+    { "label": "File number", "value": "SAMPLE-4812" },
+    { "label": "Credit score", "value": "728" },
+    { "label": "Score model", "value": "Sample FICO 8" },
+    { "label": "Risk class", "value": "Good" },
+    { "label": "Score range", "value": "300 - 850" },
+    { "label": "Open accounts", "value": "12" },
+    { "label": "Closed accounts", "value": "7" },
+    { "label": "Total balance", "value": "$18,420" },
+    { "label": "Total limit", "value": "$54,000" },
+    { "label": "Utilization", "value": "34%" },
+    { "label": "Past due", "value": "$0" },
+    { "label": "Delinquencies (24 mo.)", "value": "0" },
+    { "label": "Oldest trade", "value": "8 years, 4 months" },
+    { "label": "Average account age", "value": "4 years, 2 months" },
+    { "label": "Inquiries (12 mo.)", "value": "2" },
+    { "label": "Public records", "value": "0" },
+    { "label": "Collections", "value": "0" },
+    { "label": "Fraud alerts", "value": "None reported" },
+    { "label": "Identity verified", "value": "Yes" },
+    { "label": "Address match", "value": "Confirmed" },
+    { "label": "Employment", "value": "Verified sample" }
+  ],
+  "bureaus": [
+    { "bureau": "Experian", "reportDate": "Sep. 29, 2026", "score": "728", "status": "Clear", "details": "12 open accounts; no reported derogatory items." },
+    { "bureau": "Equifax", "reportDate": "Sep. 29, 2026", "score": "724", "status": "Clear", "details": "11 open accounts; address and identity match." },
+    { "bureau": "TransUnion", "reportDate": "Sep. 28, 2026", "score": "731", "status": "Clear", "details": "12 open accounts; utilization is within target." }
+  ],
+  "references": {
+    "columns": [
+      { "key": "name", "header": "Reference", "widthWeight": 1.2 },
+      { "key": "relationship", "header": "Relationship", "widthWeight": 1.2 },
+      { "key": "contact", "header": "Contact", "widthWeight": 1.3 },
+      { "key": "yearsKnown", "header": "Years known", "widthWeight": 0.8, "alignment": "right" },
+      { "key": "response", "header": "Response", "widthWeight": 1.1 },
+      { "key": "notes", "header": "Notes", "widthWeight": 2.1 }
+    ],
+    "rows": [
+      { "name": "Casey Rivera", "relationship": "Former supervisor", "contact": "casey@example.test", "yearsKnown": 6, "response": "Positive", "notes": "Confirmed reliable payment and employment history." },
+      { "name": "Morgan Ellis", "relationship": "Professional peer", "contact": "morgan@example.test", "yearsKnown": 4, "response": "Positive", "notes": "Confirmed consistent communication and follow-through." },
+      { "name": "Jamie Brooks", "relationship": "Landlord reference", "contact": "jamie@example.test", "yearsKnown": 3, "response": "Positive", "notes": "Confirmed on-time rent for the illustrative tenancy period." }
+    ]
+  }
+}
