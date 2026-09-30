@@ -1,0 +1,39 @@
+{
+  "title": "Northwind Operations Report",
+  "kpis": [
+    { "label": "Revenue", "value": "$1.24M", "detail": "+8.4% versus prior month" },
+    { "label": "Orders fulfilled", "value": "18,429", "detail": "97.6% delivered on time" },
+    { "label": "Open exceptions", "value": "14", "detail": "6 require action today" },
+    { "label": "Customer satisfaction", "value": "4.7 / 5", "detail": "Based on 2,105 responses" }
+  ],
+  "columns": [
+    { "key": "region", "header": "Region", "widthWeight": 1.1 },
+    { "key": "owner", "header": "Account owner", "widthWeight": 1.2 },
+    { "key": "status", "header": "Status", "widthWeight": 0.9 },
+    { "key": "revenue", "header": "Revenue", "widthWeight": 0.9, "alignment": "right" },
+    { "key": "notes", "header": "Notes", "widthWeight": 2.4 }
+  ],
+  "rows": [
+    { "region": "Central", "owner": "Maya Chen", "status": "On track", "revenue": 284000, "notes": "Renewals are pacing ahead of plan." },
+    { "region": "East", "owner": "Samir Patel", "status": "Watch", "revenue": 241500, "notes": "One strategic renewal is awaiting procurement approval." },
+    { "region": "West", "owner": "Riley Morgan", "status": "On track", "revenue": 226900, "notes": "Expansion pipeline is healthy; no action required." },
+    { "region": "South", "owner": "Jordan Kim", "status": "Action needed", "revenue": 198600, "notes": "A customer escalation needs an executive response by Friday." },
+    { "region": "International", "owner": "Avery Diaz", "status": "On track", "revenue": 161400, "notes": null },
+    { "region": "Central", "owner": "Maya Chen", "status": "On track", "revenue": 153200, "notes": "Implementation capacity increased after the new partner onboarding." },
+    { "region": "East", "owner": "Samir Patel", "status": "Watch", "revenue": 148900, "notes": "Pricing review has been scheduled for the final week of the month." },
+    { "region": "West", "owner": "Riley Morgan", "status": "On track", "revenue": 132700, "notes": "Customer success plan is signed and active." },
+    { "region": "South", "owner": "Jordan Kim", "status": "On track", "revenue": 121800, "notes": "Forecast has been validated with regional leadership." },
+    { "region": "International", "owner": "Avery Diaz", "status": "Watch", "revenue": 118100, "notes": "Translation of the rollout guide is in progress." },
+    { "region": "Central", "owner": "Maya Chen", "status": "On track", "revenue": 109500, "notes": "Adoption is above the target cohort baseline." },
+    { "region": "East", "owner": "Samir Patel", "status": "On track", "revenue": 102200, "notes": "Training sessions are fully booked." },
+    { "region": "West", "owner": "Riley Morgan", "status": "Watch", "revenue": 98900, "notes": "A long reference value demonstrates wrapping: https://example.invalid/very-long-resource-identifier-that-should-wrap-cleanly-inside-the-table-cell-without-overflow" },
+    { "region": "South", "owner": "Jordan Kim", "status": "On track", "revenue": 94600, "notes": "Support response time improved this week." },
+    { "region": "International", "owner": "Avery Diaz", "status": "On track", "revenue": 87800, "notes": "Local launch milestones are complete." },
+    { "region": "Central", "owner": "Maya Chen", "status": "On track", "revenue": 86100, "notes": "Monthly business review is scheduled with the customer." },
+    { "region": "East", "owner": "Samir Patel", "status": "Watch", "revenue": 82500, "notes": "Commercial terms are being reviewed by legal." },
+    { "region": "West", "owner": "Riley Morgan", "status": "On track", "revenue": 79900, "notes": "New usage milestones were reached ahead of schedule." },
+    { "region": "South", "owner": "Jordan Kim", "status": "On track", "revenue": 75200, "notes": "The onboarding survey was completed successfully." },
+    { "region": "International", "owner": "Avery Diaz", "status": "Watch", "revenue": 69400, "notes": "Regional tax review is the final prerequisite for invoicing." },
+    { "region": "Central", "owner": "Maya Chen", "status": "On track", "revenue": 65100, "notes": "Customer advocates agreed to participate in the reference program." }
+  ]
+}
